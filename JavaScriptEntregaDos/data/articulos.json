@@ -1,0 +1,12 @@
+{ "productos" :[
+    { "nombre": "CocaCola", "precio": 20, "iva": 0.21 , "precioFinal": 24.2, "categoria": "Bebidas"},
+    { "nombre": "Pepsi", "precio": 35, "iva": 0.21 , "precioFinal": 42.35, "categoria": "Bebidas"},
+    { "nombre": "Fernet", "precio": 50, "iva": 0.21 , "precioFinal": 60.5, "categoria": "Bebidas"},
+    { "nombre": "Sprite", "precio": 12, "iva": 0.21 , "precioFinal": 14.52, "categoria": "Bebidas"},
+    { "nombre": "Manteca", "precio": 12, "iva": 0.21 , "precioFinal": 14.52, "categoria": "Lacteos"},
+    { "nombre": "Yogurt", "precio": 50, "iva": 0.21 , "precioFinal": 60.5, "categoria": "Lacteos"},
+    { "nombre": "Lechuga", "precio": 10, "iva": 0.21 , "precioFinal": 12.1, "categoria": "Verduras"},
+    { "nombre": "Manzana", "precio": 15, "iva": 0.21 , "precioFinal": 18.15, "categoria": "Frutas"},
+    { "nombre": "Chocolate", "precio": 20, "iva": 0.21 , "precioFinal": 24.2, "categoria": "Dulces"},
+    { "nombre": "Churrasco", "precio": 10000, "iva": 0.21 , "precioFinal": 12100, "categoria": "Carnes"}
+]}

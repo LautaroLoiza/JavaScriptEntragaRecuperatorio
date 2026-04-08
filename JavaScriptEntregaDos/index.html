@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="css/styles.css">
+	<title>Entrega Coder</title>
+    	<script src="js/alerts.js" defer></script>
+    	<script src="js/tiendaPrincipal.js" defer></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+<body>
+	<h1>Gestor de Stock </h1>
+      <input id="input" placeholder="Agrega un producto">
+<label for="filtro-categoria"><h3>Buscar por categoría:</h3></label><select id="filtro-categoria" class="filtro-categoria">
+    <option value="">Todas</option>
+    <option value="Bebidas">Bebidas</option>
+    <option value="Lacteos">Lácteos</option>
+    <option value="Carnes">Carnes</option>
+	<option value="Verduras">Verduras</option>
+	<option value="Frutas">Frutas</option>
+	<option value="Dulces">Dulces</option>
+	</select>
+	<div id="modalUno" style="display:none">
+		<strong id="modalUno-nombre"></strong><br>
+		<span class="precio" id="modalUno-precio"></span>
+		<span class="precio-sin-impuestos" id="modalUno-sin-iva"></span><br>
+		<button id="cerrar-modal">Cerrar</button>
+	</div>
+
+	<div id="modalDos" style="display:none">
+		<strong id="modalDos-titulo"></strong><br>
+		<input id="precio" placeholder="Precio" value="$">
+		<input id="cantidad" placeholder="Cantidad" value="1" type="number" min="1">
+		<select id="categoria">
+			<option value="">Sin categoría</option>
+			<option value="Bebidas">Bebidas</option>
+			<option value="Lacteos">Lácteos</option>
+			<option value="Carnes">Carnes</option>
+			<option value="Verduras">Verduras</option>
+			<option value="Frutas">Frutas</option>
+			<option value="Dulces">Dulces</option>
+		</select><br>
+		<button class="agregar-producto" id="agregar-producto">Agregar</button>
+		<button class="cerrar-agregar" id="cerrar-agregar">Cerrar</button>
+	</div>
+
+	<p id="total-stock"></p>
+	<div id="productos-container"></div>
+
+</body>
+</html>
